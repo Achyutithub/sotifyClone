@@ -1,0 +1,362 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
+
+.sidebar {
+    background-color: #000;
+    width: 340px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    height: 39rem;;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    overflow: auto;
+    margin-top: 0.4rem;
+}
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 72px;
+    width: 100%;
+    opacity:0.7;
+}
+
+a {
+    text-decoration: none;
+}
+.nav .nav-option {
+    background-color: #121212;
+}
+.nav {
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+    margin: 0.4rem;
+}
+.nav-option {
+    line-height: 2.5rem;
+    opacity: 0.8;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover {
+    opacity: 1;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+}
+
+.nav-option a {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+    margin: 0.4rem;
+    
+}
+.option {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option  {
+    font-size: 1.25rem;
+    background-color: #121212;
+    opacity: 0.8;
+}
+.lib-option:hover {
+    opacity: 1;
+}
+
+.lib-option a {
+    font-size: 1.1rem;
+    margin-left: 0.9rem;
+}
+
+.lib-option i {
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+
+.option .icons {
+    font-size: 1.25rem;
+    background-color: #121212;
+    display: flex;
+}
+
+.icons i {
+    opacity: 0.8;
+    margin-left: 1rem;
+}
+.icons i:hover {
+    opacity: 1;
+}
+
+.box {
+    background-color: #232323;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 1.5rem 0 1rem 0;
+    padding: 1rem 1.25rem;
+}
+
+.para-1 {
+    background-color: #232323;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.para-2 {
+    background-color: #232323;
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+
+.badge {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 100px;
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    width: fit-content;
+    margin-top:1rem;
+}
+.lib-boxes {
+    background-color: #121212;
+}
+
+.top {
+    display: flex;
+    position: sticky;
+    top:0;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    line-height:4rem;
+    border-radius: 1rem;
+    
+}
+.arrow {
+    display: flex;
+    background-color: #121212;
+}
+
+.a {
+    text-align: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #121212;
+    border-radius: 50%;
+    margin:0.5rem;
+
+}
+.a img {
+    padding: 0.45rem;
+    opacity: 0.8;
+    background-color: #121212;
+}
+.a img:hover {
+    opacity: 1;
+}
+.extra {
+    display: flex;
+    background-color: #121212;
+    align-items: center;
+    justify-content:space-between;
+}
+.upgrade {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    width: fit-content;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem;
+}
+.upgrade:hover {
+    padding:0.6rem 0.85rem;
+}
+.install {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    width: fit-content;
+    padding: 0.5rem 0.75rem;
+    opacity:0.8;
+}
+
+.install:hover{
+    opacity: 1;
+}
+.install i {
+    padding: 0.25rem;
+}
+
+.person {
+    background-color: #121212;
+    font-size:1.5rem;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+.person:hover {
+    opacity:1;
+}
+.text {
+    line-height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left:1.5rem;
+}
+.card {
+    background-color: #202020;
+    display:flex;
+    width:12.25rem;
+    height:18rem;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    margin:0.75rem 0 1rem 1.75rem;
+}
+
+.card:hover {
+    background-color: #282828;
+
+}
+
+.card img {
+    width:10.75rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+}
+
+.cardhead {
+    font-weight: 700;
+    padding: 0.75rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.cardtext {
+    font-size:0.9rem;
+    padding: 0.75rem;
+    line-height:1.2rem;
+    opacity: 0.7;
+}
+.original {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.music-player {
+    display: flex;
+}
+
+.div-1 {
+    width:25%;
+}
+.div-2 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.div-2 img {
+    height: 1rem;
+    margin-left: 2rem;
+    opacity: 0.8;
+}
+.div-2 img:hover {
+    opacity: 1;
+}
+.div-2 .b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    margin-top: 0.5rem;
+}
+.div-2 .range input {
+    width: 20rem;
+}
+.range {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div-3 {
+    width: 25%;
+}
+
+.div-1 {
+    display: flex;
+}
+.div-1 .tt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.div-1 .ii {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.div-3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 11rem;
+}
+
+.div-3 div {
+    padding: 0.1rem;
+}
+.div-3 div img {
+    opacity: 0.8;
+}
+.div-3 div img:hover {
+    opacity: 1;
+}
